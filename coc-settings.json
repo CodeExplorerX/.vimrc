@@ -1,0 +1,39 @@
+{
+	"suggest.noselect": false,
+	"diagnostic.errorSign": "✘",
+	"diagnostic.warningSign": "!",
+	"diagnostic.infoSign": "?",
+	"diagnostic.checkCurrentLine": true,
+	"[javascript]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[html]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[json]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[css]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[scss]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[go]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"languageserver": {
+		"golang": {
+			"command": "gopls",
+			"rootPatterns": [
+				"go.mod"
+			],
+			"filetypes": [
+				"go"
+			]
+		}
+	},
+	"go.goplsOptions": {
+		"staticcheck": true
+	}
+}
