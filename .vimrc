@@ -1,6 +1,7 @@
 " ========== DEFAULT SETTINGS ==========
 syntax on
 set visualbell
+set number
 
 " ========== MAPPING KEYS ==========
 nmap <C-S> :w!<CR>
